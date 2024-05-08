@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 300px 200px auto;
+    justify-items: center;
+}
+.cointainer {
+    background-color: aqua;
+    height: 80%;
+    margin: 20px;
+    width: 80%;
+}
+.container_main-news {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
